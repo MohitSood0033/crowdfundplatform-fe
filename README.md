@@ -1,27 +1,23 @@
 # CrowdFundingFe
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
+The frontend of the application is built with Angular 14. It provides a user-friendly interface for user registration, campaign creation, and viewing campaign details.
 
-## Development server
+Prerequisites
+Node.js (version 18.10.0)
+Angular CLI (version 15.0.5)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Setup
 
-## Code scaffolding
+Navigate to the frontend directory: cd CrowdFunding-fe
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Install the dependencies: npm install
 
-## Build
+Start the development server: ng serve
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Access the application in your web browser at http://localhost:4200.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Screens
+Register: Allows users to register by providing their name, email, and mobile number.
+Verify: Allows users to verify their email or mobile number.
+Create Campaign: Enables users to create campaigns by providing the title, description, and target amount.
+Campaign List: Displays a list of campaigns with their details and contributors.
