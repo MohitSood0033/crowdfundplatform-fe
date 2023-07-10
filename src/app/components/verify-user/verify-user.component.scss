@@ -1,0 +1,39 @@
+.container-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  
+  
+  @media (min-width: 767px) {
+      .registration {
+        max-width: 500px;
+        margin: 20px 0px;
+      }
+    }
+    .registration {
+      background-color: #f7f7f7;
+      padding: 20px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3411764706);
+    }
+    .registration .form-control {
+      box-shadow: none;
+    }
+    .close{
+      border: none;
+      background-color: transparent;
+      font-size: 25px;
+      line-height: 22px;
+    }
+    .alert{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 15px;
+    }
+    .alert h5 {
+      margin: 0px;
+      font-size: 15px;
+    }

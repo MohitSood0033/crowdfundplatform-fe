@@ -1,0 +1,19 @@
+img {
+  width: 200px;
+  margin-left: 80px;
+}
+
+.card-title {
+  font-size: 1.0rem !important;
+}
+
+.btn{
+  background-color: #d23034;
+  border: none;
+  outline: none;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+  color: #fff;
+  box-shadow: 0 0 0 0.25rem rgb(232 101 104);
+}

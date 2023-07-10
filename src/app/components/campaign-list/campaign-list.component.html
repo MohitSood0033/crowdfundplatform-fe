@@ -1,0 +1,31 @@
+<main id="main" class="main">
+  <div class="pagetitle">
+    <h1>Campaign List</h1>
+  </div>
+  <div class="table-responsive">
+    <table datatable class="table table-bordered row-border hover">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Target Amount</th>
+          <th>Contributors</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let campaign of campaigns" style="white-space: nowrap;">
+          <td>{{ campaign.title }}</td>
+          <td>{{ campaign.description }}</td>
+          <td>{{ campaign.targetAmount }}</td>
+          <td>
+            <ul>
+              <li *ngFor="let transaction of campaign.transactions">
+                {{ transaction.user.name }} - {{ transaction.amount }}
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>
